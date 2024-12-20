@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* src/index.css */
+
+/* Open Sans Regular */
+@font-face {
+  font-family: 'Open Sans';
+  src: url('/fonts/opensans/OpenSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Open Sans Bold */
+@font-face {
+  font-family: 'Open Sans';
+  src: url('/fonts/opensans/OpenSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Open Sans ExtraBold */
+@font-face {
+  font-family: 'Open Sans';
+  src: url('/fonts/opensans/OpenSans-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+/* Open Sans Light */
+@font-face {
+  font-family: 'Open Sans';
+  src: url('/fonts/opensans/OpenSans-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Open Sans Light Italic */
+@font-face {
+  font-family: 'Open Sans';
+  src: url('/fonts/opensans/OpenSans-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* Open Sans Medium */
+@font-face {
+  font-family: 'Open Sans';
+  src: url('/fonts/opensans/OpenSans-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Open Sans Medium Italic */
+@font-face {
+  font-family: 'Open Sans';
+  src: url('/fonts/opensans/OpenSans-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+/* Open Sans SemiBold */
+@font-face {
+  font-family: 'Open Sans';
+  src: url('/fonts/opensans/OpenSans-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* Open Sans SemiBold Italic */
+@font-face {
+  font-family: 'Open Sans';
+  src: url('/fonts/opensans/OpenSans-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
